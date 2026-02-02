@@ -1,9 +1,11 @@
 export const config = {
   title: "Moire",
-  tagline: "Your synced thoughts",
-  author: "User",
+  author: "Aeris",
   theme: "receipt",
   pageSize: 20,
+  utcOffset: "-06:00",
+  description: "Sync your thoughts from Apple Notes by iOS Shortcuts to the memo log site.",
+  keywords: "memo, thought, sync, apple notes, shortcuts, ios",
   links: [
     { name: "GitHub", url: "https://github.com/anig1scur/moire" }
   ]

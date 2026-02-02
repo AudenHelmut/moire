@@ -77,7 +77,7 @@
             {#each Object.entries(groupedMemos) as [dateKey, memos]}
                 <div class="date-group">
                     <div class="date-header">
-                        <span>*** {format(new Date(dateKey), 'MMM dd, yyyy').toUpperCase()} ***</span>
+                        <span>*** {format(new Date(dateKey + 'T00:00:00'), 'MMM dd, yyyy').toUpperCase()} ***</span>
                     </div>
                     
                     {#each memos as memo}
@@ -138,7 +138,7 @@
 
     .receipt {
         width: 100%;
-        max-width: 380px;
+        max-width: 540px;
         background: var(--receipt-bg);
         padding: 20px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
