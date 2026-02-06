@@ -64,7 +64,18 @@
                 </div>
               </div>
               <div
-                class="flex-1 text-[0.95rem] [&_h1]:text-base [&_h1]:uppercase [&_h1]:mb-1.5 [&_p]:mb-2.5 [&_img]:grayscale [&_img]:contrast-120 [&_img]:max-w-full [&_img]:my-1.5 [&_img]:border-2 [&_img]:border-black
+                class="flex-1 text-[0.95rem] 
+                  [&_h1]:text-[1.2rem] [&_h1]:uppercase [&_h1]:font-black [&_h1]:mb-2 [&_h1]:mt-4
+                  [&_h2]:text-[1.1rem] [&_h2]:uppercase [&_h2]:font-bold [&_h2]:mb-2 [&_h2]:mt-3
+                  [&_h3]:text-[1rem] [&_h3]:font-bold [&_h3]:mb-1.5 [&_h3]:mt-2.5
+                  [&_h4]:text-[0.9rem] [&_h4]:font-bold [&_h4]:mb-1 [&_h4]:mt-2
+                  [&_h5]:text-[0.8rem] [&_h5]:font-bold [&_h5]:italic [&_h5]:mb-1
+                  [&_p]:my-4 [&_img]:grayscale [&_img]:contrast-120 [&_img]:max-w-full [&_img]:my-5 [&_img]:border-2 [&_img]:border-black
+                  [&_a]:underline [&_a]:decoration-1 [&_a]:underline-offset-2 [&_a]:hover:bg-black [&_a]:hover:text-white
+                  [&_table]:w-full [&_table]:border-collapse [&_table]:my-3 [&_table]:text-xs
+                  [&_th]:border-b-2 [&_th]:border-black [&_th]:border-dashed [&_th]:text-center [&_th]:py-1 [&_th]:uppercase
+                  [&_td]:py-1 [&_td]:px-1 [&_td]:border-b [&_td]:border-[#ccc] [&_td]:border-dashed
+                  [&_blockquote]:border-l-4 [&_blockquote]:border-black [&_blockquote]:pl-4 [&_blockquote]:py-1 [&_blockquote]:my-4 [&_blockquote]:italic [&_blockquote]:text-[0.9rem] [&_blockquote]:bg-black/5
                   [&_.tag-link]:bg-transparent [&_.tag-link]:font-bold [&_.tag-link]:underline [&_.tag-link]:decoration-dashed [&_.tag-link]:underline-offset-3 [&_.tag-link]:hover:bg-black [&_.tag-link]:hover:text-white
                 "
               >

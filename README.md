@@ -16,5 +16,3 @@ Sync your thoughts from Apple Notes by iOS Shortcuts to the memo log site.
 
 ## iOS Shortcut Configuration
 
-## Project Structure
-

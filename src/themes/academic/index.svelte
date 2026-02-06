@@ -76,13 +76,21 @@
                 </div>
 
                 <div
-                  class="prose prose-stone prose-lg max-w-none
-                                    text-[var(--text-color)] leading-relaxed
-                                    [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5
-                                    prose-p:mb-4 prose-headings:font-normal prose-headings:italic prose-a:text-[var(--accent-color)] prose-a:no-underline prose-a:border-b prose-a:border-[var(--accent-color)]/30 hover:prose-a:border-[var(--accent-color)] hover:prose-a:bg-[var(--accent-color)]/5
-                                    prose-blockquote:border-l-2 prose-blockquote:border-[var(--accent-color)] prose-blockquote:bg-[#f9f2f4] prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-sm prose-blockquote:text-[#555]
-                                    [&_img]:shadow-lg [&_img]:rounded-sm [&_img]:border-[4px] [&_img]:border-white [&_img]:rotate-1 group-hover:[&_img]:rotate-0 [&_img]:transition-transform [&_img]:duration-500
-                                    [&_.tag-link]:text-xs [&_.tag-link]:text-[#999] [&_.tag-link:hover]:text-[var(--accent-color)] [&_.tag-link:hover]:underline [&_.tag-link]:no-underline"
+                  class="max-w-none text-[0.95rem] leading-relaxed
+                        [&_h1]:text-[1.2rem] [&_h1]:font-normal [&_h1]:italic [&_h1]:mb-4 [&_h1]:mt-6
+                        [&_h2]:text-[1.1rem] [&_h2]:font-normal [&_h2]:italic [&_h2]:mb-4 [&_h2]:mt-5
+                        [&_h3]:text-[1.0rem] [&_h3]:font-normal [&_h3]:italic [&_h3]:mb-3 [&_h3]:mt-4
+                        [&_h4]:text-[0.9rem] [&_h4]:font-normal [&_h4]:italic [&_h4]:mb-3 [&_h4]:mt-3
+                        [&_h5]:text-[0.8rem] [&_h5]:font-normal [&_h5]:italic [&_h5]:mb-2 [&_h5]:mt-2
+                        [&_p]:mb-4
+                        [&_a]:text-[var(--accent-color)] [&_a]:no-underline [&_a]:border-b [&_a]:border-[var(--accent-color)]/30 [&_a]:underline-offset-2 [&_a]:hover:border-[var(--accent-color)] [&_a]:hover:bg-[var(--accent-color)]/5
+                        [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5
+                        [&_table]:border-collapse [&_table]:border-y-2 [&_table]:border-black [&_table]:my-6 [&_table]:w-full [&_table]:text-xs
+                        [&_th]:border-b-2 [&_th]:border-black [&_th]:border-dashed [&_th]:font-bold [&_th]:p-2 [&_th]:text-center [&_th]:uppercase
+                        [&_td]:border-b [&_td]:border-[#ccc] [&_td]:border-dashed [&_td]:p-2 [&_td]:text-center
+                        [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--accent-color)] [&_blockquote]:bg-[#f9f2f4] [&_blockquote]:py-2 [&_blockquote]:px-4 [&_blockquote]:my-4 [&_blockquote]:not-italic [&_blockquote]:text-[0.9rem] [&_blockquote]:text-[#555]
+                        [&_img]:shadow-lg [&_img]:rounded-sm [&_img]:border-[4px] [&_img]:border-white [&_img]:rotate-1 group-hover:[&_img]:rotate-0 [&_img]:transition-transform [&_img]:duration-500
+                        [&_.tag-link]:text-xs [&_.tag-link]:text-[#999] [&_.tag-link:hover]:text-[var(--accent-color)] [&_.tag-link:hover]:underline [&_.tag-link]:no-underline"
                   onclick={(e) => {
                       const target = e.target as HTMLElement;
                       if (target.classList.contains('tag-link')) {

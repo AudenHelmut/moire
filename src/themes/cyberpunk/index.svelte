@@ -104,8 +104,21 @@
         </header>
 
         <div
-          class="prose prose-invert prose-p:text-[var(--text-color)]/90 prose-headings:text-[var(--text-color)] prose-a:text-[var(--accent-color)] prose-strong:text-white prose-code:text-[var(--accent-color)] prose-code:bg-[var(--accent-color)]/10 max-w-none text-lg leading-relaxed
-                 [&_.tag-link]:inline-block [&_.tag-link]:px-2 [&_.tag-link]:py-0.5 [&_.tag-link]:border [&_.tag-link]:border-[var(--text-color)]/30 [&_.tag-link]:text-[10px] [&_.tag-link]:tracking-widest [&_.tag-link]:uppercase [&_.tag-link]:text-[var(--text-color)]/60 [&_.tag-link:hover]:bg-[var(--text-color)] [&_.tag-link:hover]:text-[var(--bg-color)] [&_.tag-link]:transition-colors [&_.tag-link]:cursor-pointer [&_.tag-link]:no-underline"
+                class="max-w-none text-lg leading-relaxed text-[var(--text-color)]/90
+                   [&_h1]:text-[1.2rem] [&_h1]:uppercase [&_h1]:font-black [&_h1]:mb-4 [&_h1]:mt-8 [&_h1]:tracking-[0.15em] [&_h1]:text-[var(--accent-color)]
+                   [&_h2]:text-[1.1rem] [&_h2]:uppercase [&_h2]:font-bold [&_h2]:mb-3 [&_h2]:mt-6 [&_h2]:tracking-[0.15em] [&_h2]:text-[var(--accent-color)]
+                   [&_h3]:text-[1.0rem] [&_h3]:font-bold [&_h3]:mb-2 [&_h3]:mt-5 [&_h3]:tracking-[0.15em] [&_h3]:text-[var(--accent-color)]
+                   [&_h4]:text-[0.9rem] [&_h4]:font-bold [&_h4]:mb-2 [&_h4]:mt-4 [&_h4]:tracking-[0.15em] [&_h4]:text-[var(--accent-color)]
+                   [&_h5]:text-[0.8rem] [&_h5]:font-bold [&_h5]:italic [&_h5]:mb-2 [&_h5]:tracking-[0.15em] [&_h5]:text-[var(--accent-color)]
+                   [&_p]:my-4
+                   [&_a]:text-[var(--accent-color)] [&_a]:underline [&_a]:underline-offset-4 [&_a]:decoration-1 [&_a]:hover:bg-[var(--accent-color)]/10
+                   [&_strong]:text-white
+                   [&_code]:text-[var(--accent-color)] [&_code]:bg-[var(--accent-color)]/10 [&_code]:px-1
+                   [&_table]:w-full [&_table]:border-collapse [&_table]:my-6 [&_table]:text-sm [&_table]:border [&_table]:border-[var(--accent-color)]/50
+                   [&_th]:bg-[var(--accent-color)]/10 [&_th]:text-[var(--accent-color)] [&_th]:p-3 [&_th]:border-b-2 [&_th]:border-dashed [&_th]:border-[var(--accent-color)]/50 [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-center
+                   [&_td]:p-3 [&_td]:border-b [&_td]:border-dashed [&_td]:border-[var(--accent-color)]/30 [&_td]:text-center
+                   [&_blockquote]:border-l-4 [&_blockquote]:border-[var(--accent-color)] [&_blockquote]:pl-4 [&_blockquote]:py-2 [&_blockquote]:my-6 [&_blockquote]:italic [&_blockquote]:text-[0.95rem] [&_blockquote]:bg-[var(--accent-color)]/5
+                   [&_.tag-link]:inline-block [&_.tag-link]:px-2 [&_.tag-link]:py-0.5 [&_.tag-link]:border [&_.tag-link]:border-[var(--text-color)]/30 [&_.tag-link]:text-[10px] [&_.tag-link]:tracking-widest [&_.tag-link]:uppercase [&_.tag-link]:text-[var(--text-color)]/60 [&_.tag-link:hover]:bg-[var(--text-color)] [&_.tag-link:hover]:text-[var(--bg-color)] [&_.tag-link]:transition-colors [&_.tag-link]:cursor-pointer [&_.tag-link]:no-underline"
           onclick={(e) => {
              const target = e.target as HTMLElement;
              if (target.classList.contains('tag-link')) {

@@ -37,7 +37,19 @@
         ></div>
         <div class="relative z-10 flex h-full flex-col">
           <div
-            class="prose prose-slate prose-p:text-slate-700 prose-headings:text-slate-800 prose-a:text-blue-600 prose-strong:text-slate-900 mb-6 line-clamp-[12] text-[0.95rem] leading-relaxed tracking-wide
+            class="mb-6 line-clamp-[12] text-[0.95rem] leading-relaxed tracking-wide
+                   [&_h1]:text-[1.2rem] [&_h1]:uppercase [&_h1]:font-black [&_h1]:mb-2 [&_h1]:mt-4 [&_h1]:text-slate-800
+                   [&_h2]:text-[1.1rem] [&_h2]:uppercase [&_h2]:font-bold [&_h2]:mb-2 [&_h2]:mt-3 [&_h2]:text-slate-800
+                   [&_h3]:text-[1.0rem] [&_h3]:font-bold [&_h3]:mb-1.5 [&_h3]:mt-2.5 [&_h3]:text-slate-800
+                   [&_h4]:text-[0.9rem] [&_h4]:font-bold [&_h4]:mb-1 [&_h4]:mt-2 [&_h4]:text-slate-800
+                   [&_h5]:text-[0.8rem] [&_h5]:font-bold [&_h5]:italic [&_h5]:mb-1 [&_h5]:text-slate-800
+                   [&_p]:my-3 [&_p]:text-slate-700
+                   [&_a]:text-blue-600 [&_a]:underline [&_a]:decoration-1 [&_a]:underline-offset-2 [&_a]:hover:bg-blue-50
+                   [&_strong]:text-slate-900
+                   [&_table]:w-full [&_table]:border-collapse [&_table]:my-3 [&_table]:text-xs
+                   [&_th]:border-b-2 [&_th]:border-slate-200 [&_th]:border-dashed [&_th]:text-center [&_th]:py-1 [&_th]:font-semibold [&_th]:text-slate-700
+                   [&_td]:py-1 [&_td]:px-1 [&_td]:border-b [&_td]:border-slate-100 [&_td]:border-dashed [&_td]:text-slate-600 [&_td]:text-center
+                   [&_blockquote]:border-l-4 [&_blockquote]:border-slate-300 [&_blockquote]:pl-4 [&_blockquote]:py-1 [&_blockquote]:my-4 [&_blockquote]:italic [&_blockquote]:text-[0.9rem] [&_blockquote]:bg-slate-50
                    [&_.tag-link]:rounded-full [&_.tag-link]:px-2 [&_.tag-link]:py-0.5 [&_.tag-link]:text-[10px] [&_.tag-link]:font-medium [&_.tag-link]:tracking-wide [&_.tag-link]:transition-colors [&_.tag-link]:bg-slate-100 [&_.tag-link]:text-slate-500 [&_.tag-link:hover]:bg-slate-200 [&_.tag-link:hover]:text-slate-700 [&_.tag-link]:no-underline [&_.tag-link]:mx-0.5"
              onclick={(e) => {
                 const target = e.target as HTMLElement;

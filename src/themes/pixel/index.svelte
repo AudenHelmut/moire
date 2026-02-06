@@ -67,13 +67,20 @@
 
         <div class="flex-1 p-4">
           <div
-            class="prose prose-sm leading-relaxed max-w-none
-                        text-[var(--text-color)]
-                        prose-headings:text-[var(--border-color)] prose-headings:font-bold
-                        prose-a:text-[var(--accent-color)] prose-a:font-bold prose-a:no-underline hover:prose-a:underline
-                        prose-strong:text-[var(--accent-color)]
-                        prose-code:bg-[var(--bg-color)] prose-code:text-[var(--accent-color)] prose-code:px-1 prose-code:border prose-code:border-[var(--text-color)]/20
-                        prose-blockquote:border-l-4 prose-blockquote:border-[#859900] prose-blockquote:bg-[#f9f2f4] prose-blockquote:text-[#657b83]
+            class="leading-relaxed max-w-none text-[0.95rem] text-[var(--text-color)]
+                        [&_h1]:text-[1.2rem] [&_h1]:uppercase [&_h1]:font-black [&_h1]:mb-4 [&_h1]:mt-6 [&_h1]:text-[var(--border-color)] [&_h1]:tracking-wider
+                        [&_h2]:text-[1.1rem] [&_h2]:uppercase [&_h2]:font-bold [&_h2]:mb-3 [&_h2]:mt-5 [&_h2]:text-[var(--border-color)] [&_h2]:tracking-wider
+                        [&_h3]:text-[1.0rem] [&_h3]:font-bold [&_h3]:mb-2 [&_h3]:mt-4 [&_h3]:text-[var(--border-color)] [&_h3]:tracking-wider
+                        [&_h4]:text-[0.9rem] [&_h4]:font-bold [&_h4]:mb-2 [&_h4]:mt-3 [&_h4]:text-[var(--border-color)] [&_h4]:tracking-wider
+                        [&_h5]:text-[0.8rem] [&_h5]:font-bold [&_h5]:italic [&_h5]:mb-2 [&_h5]:text-[var(--border-color)] [&_h5]:tracking-wider
+                        [&_p]:my-3
+                        [&_a]:text-[var(--accent-color)] [&_a]:font-bold [&_a]:underline [&_a]:underline-offset-2 [&_a]:decoration-2 [&_a]:hover:bg-[var(--accent-color)] [&_a]:hover:text-white
+                        [&_strong]:text-[var(--accent-color)]
+                        [&_code]:bg-[var(--bg-color)] [&_code]:text-[var(--accent-color)] [&_code]:px-1 [&_code]:border [&_code]:border-[var(--text-color)]/20
+                        [&_table]:w-full [&_table]:border-collapse [&_table]:my-4 [&_table]:text-xs [&_table]:border-2 [&_table]:border-[var(--border-color)]
+                        [&_th]:bg-[var(--bg-color)] [&_th]:text-[var(--border-color)] [&_th]:p-2 [&_th]:border-b-2 [&_th]:border-dashed [&_th]:border-[var(--border-color)] [&_th]:text-center
+                        [&_td]:p-2 [&_td]:border-b [&_td]:border-dashed [&_td]:border-[var(--border-color)] [&_td]:text-center
+                        [&_blockquote]:border-l-4 [&_blockquote]:border-[#859900] [&_blockquote]:bg-[#f9f2f4] [&_blockquote]:py-2 [&_blockquote]:px-4 [&_blockquote]:my-4 [&_blockquote]:italic [&_blockquote]:text-[0.9rem] [&_blockquote]:text-[#657b83]
                         [&_.tag-link]:bg-[var(--accent-color)] [&_.tag-link]:text-white [&_.tag-link]:px-1 [&_.tag-link]:border [&_.tag-link]:border-[var(--border-color)] [&_.tag-link]:shadow-[1px_1px_0_0_var(--border-color)] [&_.tag-link]:text-[10px] [&_.tag-link]:no-underline [&_.tag-link]:mx-0.5"
              onclick={(e) => {
                 const target = e.target as HTMLElement;
