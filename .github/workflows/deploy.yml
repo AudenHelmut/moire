@@ -40,6 +40,9 @@ jobs:
           git fetch origin memos
           git checkout origin/memos -- src/memos || echo "Memos branch not found or empty"
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: Build
         run: pnpm run build
 
